@@ -32,17 +32,17 @@ class Rectangle implements Shape{
     }
 }
 
-public class AreaCalculator{
-    public static double totalArea(Shape[] shapes){
-        double total = 0;
-
-        for(Shape s: shapes){
-            total += s.area();
-        }
-        return total;
-    }
-
-    public static void main(String[] args) {
-
-    }
-}
+//public class AreaCalculator{
+//    public static double totalArea(Shape[] shapes){
+//        double total = 0;
+//
+//        for(Shape s: shapes){
+//            total += s.area();
+//        }
+//        return total;
+//    }
+//
+//    public static void main(String[] args) {
+//
+//    }
+//}
