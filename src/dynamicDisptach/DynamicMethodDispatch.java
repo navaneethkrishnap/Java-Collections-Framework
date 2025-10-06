@@ -1,3 +1,4 @@
+package dynamicDisptach;
 
 // DYNAMIC DISPATCH WHY ? -- 1. POLYMORPHISM
 public class DynamicMethodDispatch {
@@ -22,14 +23,14 @@ class Animal{
 class Dog extends Animal{
     @Override
     void sound(){
-        System.out.println("Dog barks");
+        System.out.println("dynamicDisptach.Dog barks");
     }
 }
 
 class Cat extends Dog{
     @Override
     void sound(){
-        System.out.println("Cat meows");
+        System.out.println("dynamicDisptach.Cat meows");
     }
 }
 

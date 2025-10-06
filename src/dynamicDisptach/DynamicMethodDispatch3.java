@@ -1,4 +1,4 @@
-// Dynamic method dispatch == 3. OPEN/CLOSED PRINCIPLE ( OCP )
+package dynamicDisptach;// Dynamic method dispatch == 3. OPEN/CLOSED PRINCIPLE ( OCP )
 
 
 public class DynamicMethodDispatch3 {
@@ -33,10 +33,10 @@ class Rectangle implements Shape{
 }
 
 //public class AreaCalculator{
-//    public static double totalArea(Shape[] shapes){
+//    public static double totalArea(dynamicDisptach.Shape[] shapes){
 //        double total = 0;
 //
-//        for(Shape s: shapes){
+//        for(dynamicDisptach.Shape s: shapes){
 //            total += s.area();
 //        }
 //        return total;

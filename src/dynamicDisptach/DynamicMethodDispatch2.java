@@ -1,3 +1,5 @@
+package dynamicDisptach;
+
 // DYNAMIC DISPATCH WHY? == 2. PROGRAM TO AN INTERFACE NOT IMPLEMENTATION
 interface Payment {
     void pay(double amount);
